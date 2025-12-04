@@ -25,7 +25,7 @@ dist-ssr
 
 Server/.env
 *.env
-*.json
+
 *.key
 *.pem
 Server/uploads/
