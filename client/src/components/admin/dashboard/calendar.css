@@ -1,0 +1,60 @@
+.custom-calendar-wrapper .react-calendar {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.custom-calendar-wrapper .react-calendar__navigation {
+    margin-bottom: 1rem;
+}
+
+.custom-calendar-wrapper .react-calendar__navigation button {
+    min-width: 30px;
+    background: none;
+}
+
+.custom-calendar-wrapper .react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+}
+
+.custom-calendar-wrapper .react-calendar__tile {
+    padding: 0.5em 0.5em;
+    font-size: 0.875rem;
+    border-radius: 9999px;
+}
+
+.custom-calendar-wrapper .react-calendar__tile:enabled:hover,
+.custom-calendar-wrapper .react-calendar__tile:enabled:focus {
+    background-color: #f1f5f9;
+}
+
+.custom-calendar-wrapper .react-calendar__tile--now {
+    background: transparent;
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+.custom-calendar-wrapper .react-calendar__tile--active {
+    background: #3b82f6 !important;
+    color: white !important;
+}
+
+.custom-calendar-wrapper .react-calendar__tile--active:enabled:hover,
+.custom-calendar-wrapper .react-calendar__tile--active:enabled:focus {
+    background: #2563eb !important;
+}
+
+/* Hide navigation label (Month Year) since we have our own header style if needed, 
+   but keeping it for now as it's useful */
+.custom-calendar-wrapper .react-calendar__navigation__label {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #1e293b;
+}
